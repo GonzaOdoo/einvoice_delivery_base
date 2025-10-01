@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_xma_documento_aduanero_01" model="l10n.xma.documento.aduanero">
+        <field name="clave">01</field>
+        <field name="name">Pedimento</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+     <record id="l10n_xma_documento_aduanero_02" model="l10n.xma.documento.aduanero">
+        <field name="clave">02</field>
+        <field name="name">Autorización de importación temporal</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+     <record id="l10n_xma_documento_aduanero_03" model="l10n.xma.documento.aduanero">
+        <field name="clave">03</field>
+        <field name="name">Autorización de importación temporal de embarcaciones</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+     <record id="l10n_xma_documento_aduanero_04" model="l10n.xma.documento.aduanero">
+        <field name="clave">04</field>
+        <field name="name">Autorización de importación temporal de mercancías, destinadas al mantenimiento y reparación de las mercancías importadas temporalmente</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+     <record id="l10n_xma_documento_aduanero_05" model="l10n.xma.documento.aduanero">
+        <field name="clave">05</field>
+        <field name="name">Autorización para la importación de vehículos especialmente construidos o transformados, equipados con dispositivos o aparatos diversos para cumplir con contrato derivado de licitación pública</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+     <record id="l10n_xma_documento_aduanero_06" model="l10n.xma.documento.aduanero">
+        <field name="clave">06</field>
+        <field name="name">Aviso de exportación temporal</field>
+    </record>
+     <record id="l10n_xma_documento_aduanero_07" model="l10n.xma.documento.aduanero">
+        <field name="clave">07</field>
+        <field name="name">Aviso de traslado de mercancías de empresas con Programa IMMEX, RFE u Operador Económico Autorizado</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+     <record id="l10n_xma_documento_aduanero_08" model="l10n.xma.documento.aduanero">
+        <field name="clave">08</field>
+        <field name="name">Aviso para el traslado de autopartes ubicadas en la franja o región fronteriza a la industria terminal automotriz o manufacturera de vehículos de autotransporte en el resto del territorio nacional</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+     <record id="l10n_xma_documento_aduanero_09" model="l10n.xma.documento.aduanero">
+        <field name="clave">09</field>
+        <field name="name">Constancia de importación temporal, retorno o transferencia de contenedores</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+     <record id="l10n_xma_documento_aduanero_10" model="l10n.xma.documento.aduanero">
+        <field name="clave">10</field>
+        <field name="name">Constancia de transferencia de mercancías</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+     <record id="l10n_xma_documento_aduanero_11" model="l10n.xma.documento.aduanero">
+        <field name="clave">11</field>
+        <field name="name">Autorización de donación de mercancías al Fisco Federal que se encuentren en el extranjero</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+     <record id="l10n_xma_documento_aduanero_12" model="l10n.xma.documento.aduanero">
+        <field name="clave">12</field>
+        <field name="name">Cuaderno ATA</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+     <record id="l10n_xma_documento_aduanero_13" model="l10n.xma.documento.aduanero">
+        <field name="clave">13</field>
+        <field name="name">Listas de intercambio</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+     <record id="l10n_xma_documento_aduanero_14" model="l10n.xma.documento.aduanero">
+        <field name="clave">14</field>
+        <field name="name">Permiso de Importación Temporal</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+     <record id="l10n_xma_documento_aduanero_15" model="l10n.xma.documento.aduanero">
+        <field name="clave">15</field>
+        <field name="name">Permiso de importación temporal de casa rodante</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+     <record id="l10n_xma_documento_aduanero_16" model="l10n.xma.documento.aduanero">
+        <field name="clave">16</field>
+        <field name="name">Permiso de importación temporal de embarcaciones</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+     <record id="l10n_xma_documento_aduanero_17" model="l10n.xma.documento.aduanero">
+        <field name="clave">17</field>
+        <field name="name">Solicitud de donación de mercancías en casos de emergencias o desastres naturales</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+     <record id="l10n_xma_documento_aduanero_18" model="l10n.xma.documento.aduanero">
+        <field name="clave">18</field>
+        <field name="name">Aviso de consolidado</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+     <record id="l10n_xma_documento_aduanero_19" model="l10n.xma.documento.aduanero">
+        <field name="clave">19</field>
+        <field name="name">Aviso de cruce de mercancias</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+     <record id="l10n_xma_documento_aduanero_20" model="l10n.xma.documento.aduanero">
+        <field name="clave">20</field>
+        <field name="name">Otro</field>
+        <field name="country_id" ref="base.mx"/>
+    </record> 
+</odoo>
+

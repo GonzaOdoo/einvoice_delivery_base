@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_xma_condiciones_especiales_01" model="l10n.xma.condiciones.especiales">
+        <field name="clave">01</field>
+        <field name="name">Congelados</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_condiciones_especiales_02" model="l10n.xma.condiciones.especiales">
+        <field name="clave">02</field>
+        <field name="name">Refrigerados</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_condiciones_especiales_03" model="l10n.xma.condiciones.especiales">
+        <field name="clave">03</field>
+        <field name="name">Temperatura controlada</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_condiciones_especiales_04" model="l10n.xma.condiciones.especiales">
+        <field name="clave">04</field>
+        <field name="name">Temperatura ambiente</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+</odoo>

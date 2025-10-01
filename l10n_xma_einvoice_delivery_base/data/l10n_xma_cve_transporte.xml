@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_xma_cve_transporte_01" model="l10n.xma.cve.transporte">
+        <field name="clave">01</field>
+        <field name="name">Autotransporte</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_cve_transporte_02" model="l10n.xma.cve.transporte">
+        <field name="clave">02</field>
+        <field name="name">Transporte Marítimo</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_cve_transporte_03" model="l10n.xma.cve.transporte">
+        <field name="clave">03</field>
+        <field name="name">Transporte Aéreo</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_cve_transporte_04" model="l10n.xma.cve.transporte">
+        <field name="clave">04</field>
+        <field name="name">Transporte Ferroviario</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+</odoo>

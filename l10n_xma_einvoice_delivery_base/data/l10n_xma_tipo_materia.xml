@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_xma_tipo_materia_01" model="l10n.xma.tipo.materia">
+        <field name="clave">01</field>
+        <field name="name">Materia prima</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_tipo_materia_02" model="l10n.xma.tipo.materia">
+        <field name="clave">02</field>
+        <field name="name">Materia procesada</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_tipo_materia_03" model="l10n.xma.tipo.materia">
+        <field name="clave">03</field>
+        <field name="name">Materia terminada(producto terminado)</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_tipo_materia_04" model="l10n.xma.tipo.materia">
+        <field name="clave">04</field>
+        <field name="name">Materia para la industria manufacturera</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_tipo_materia_05" model="l10n.xma.tipo.materia">
+        <field name="clave">05</field>
+        <field name="name">Otra</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+</odoo>

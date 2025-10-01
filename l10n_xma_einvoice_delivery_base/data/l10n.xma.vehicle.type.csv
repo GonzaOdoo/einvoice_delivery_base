@@ -1,0 +1,50 @@
+id,code,name,country_id
+27,VL,Vehículo ligero de carga (2 llantas en el eje delantero y 2 llantas en el eje trasero),Mexico
+28,C2,Camión Unitario (2 llantas en el eje delantero y 4 llantas en el eje trasero),Mexico
+29,C3,Camión Unitario (2 llantas en el eje delantero y 6 o 8 llantas en los dos ejes traseros),Mexico
+30,C2R2,Camión-Remolque (6 llantas en el camión y 8 llantas en remolque),Mexico
+31,C3R2,Camión-Remolque (10 llantas en el camión y 8 llantas en remolque),Mexico
+32,C2R3,Camión-Remolque (6 llantas en el camión y 12 llantas en remolque),Mexico
+33,C3R3,Camión-Remolque (10 llantas en el camión y 12 llantas en remolque),Mexico
+34,T2S1,Tractocamión Articulado (6 llantas en el tractocamión 4 llantas en el semirremolque),Mexico
+35,T2S2,Tractocamión Articulado (6 llantas en el tractocamión 8 llantas en el semirremolque),Mexico
+36,T2S3,Tractocamión Articulado (6 llantas en el tractocamión 12 llantas en el semirremolque),Mexico
+37,T3S1,Tractocamión Articulado (10 llantas en el tractocamión 4 llantas en el semirremolque),Mexico
+38,T3S2,Tractocamión Articulado (10 llantas en el tractocamión 8 llantas en el semirremolque),Mexico
+39,T3S3,Tractocamión Articulado (10 llantas en el tractocamión 12 llantas en el semirremolque),Mexico
+40,T2S1R2,Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión 4 llantas en el semirremolque y 8 llantas en el remolque),Mexico
+41,T2S2R2,Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión 8 llantas en el semirremolque y 8 llantas en el remolque),Mexico
+42,T2S1R3,Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión 4 llantas en el semirremolque y 12 llantas en el remolque),Mexico
+43,T3S1R2,Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión 4 llantas en el semirremolque y 8 llantas en el remolque),Mexico
+44,T3S1R3,Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión 4 llantas en el semirremolque y 12 llantas en el remolque),Mexico
+45,T3S2R2,Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión 8 llantas en el semirremolque y 8 llantas en el remolque),Mexico
+46,T3S2R3,Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión 8 llantas en el semirremolque y 12 llantas en el remolque),Mexico
+47,T3S2R4,Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión 8 llantas en el semirremolque y 16 llantas en el remolque),Mexico
+48,T2S2S2,Tractocamión Semirremolque-Semirremolque (6 llantas en el tractocamión 8 llantas en el semirremolque delantero y 8 llantas en el semirremolque trasero),Mexico
+49,T3S2S2,Tractocamión Semirremolque-Semirremolque (10 llantas en el tractocamión 8 llantas en el semirremolque delantero y 8 llantas en el semirremolque trasero),Mexico
+50,T3S3S2,Tractocamión Semirremolque-Semirremolque (10 llantas en el tractocamión 12 llantas en el semirremolque delantero y 8 llantas en el semirremolque trasero),Mexico
+51,OTROEVGP,Especializado de carga Voluminosa y/o Gran Peso,Mexico
+52,OTROSG,Servicio de Grúas,Mexico
+53,GPLUTA,Grúa de Pluma Tipo A,Mexico
+54,GPLUTB,Grúa de Pluma Tipo B,Mexico
+55,GPLUTC,Grúa de Pluma Tipo C,Mexico
+56,GPLUTD,Grúa de Pluma Tipo D,Mexico
+57,GPLATA,Grúa de Plataforma Tipo A,Mexico
+58,GPLATB,Grúa de Plataforma Tipo B,Mexico
+59,GPLATC,Grúa de Plataforma Tipo C,Mexico
+60,GPLATD,Grúa de Plataforma Tipo D,Mexico
+Py61,1,Camión,Paraguay
+Py62,2,Camioneta,Paraguay
+Py63,3,Furgón,Paraguay
+Py64,4,Semirremolque,Paraguay
+Py65,5,Acoplado,Paraguay
+Py66,6,Tractocamión,Paraguay
+Py67,7,Motocicleta,Paraguay
+Py68,8,Vehiculo liviano,Paraguay
+Py69,9,Otros,Paraguay
+
+
+
+
+
+

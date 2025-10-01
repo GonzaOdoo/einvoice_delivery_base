@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_xma_regsitro_istmo_01" model="l10n.xma.registro.istmo">
+        <field name="clave">01</field>
+        <field name="name">Coatzacoalcos I</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_regsitro_istmo_02" model="l10n.xma.registro.istmo">
+        <field name="clave">02</field>
+        <field name="name">Coatzacoalcos II</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_regsitro_istmo_03" model="l10n.xma.registro.istmo">
+        <field name="clave">03</field>
+        <field name="name">Texistepec</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_regsitro_istmo_04" model="l10n.xma.registro.istmo">
+        <field name="clave">04</field>
+        <field name="name">San Juan Evangelista</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_regsitro_istmo_05" model="l10n.xma.registro.istmo">
+        <field name="clave">05</field>
+        <field name="name">Salina Cruz</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_regsitro_istmo_06" model="l10n.xma.registro.istmo">
+        <field name="clave">06</field>
+        <field name="name">San Blas Atempa</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+</odoo>

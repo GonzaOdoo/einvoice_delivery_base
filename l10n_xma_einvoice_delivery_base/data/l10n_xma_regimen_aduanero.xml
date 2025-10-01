@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_xma_regimen_aduanero_01" model="l10n.xma.regimen.aduanero">
+        <field name="clave">IMD</field>
+        <field name="name">Definitivo de importación.</field>
+        <field name="impoexpo">Entrada</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_regimen_aduanero_02" model="l10n.xma.regimen.aduanero">
+        <field name="clave">EXD</field>
+        <field name="name">Definitivo de exportación.</field>
+        <field name="impoexpo">Salida</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_regimen_aduanero_03" model="l10n.xma.regimen.aduanero">
+        <field name="clave">ITR</field>
+        <field name="name">Temporales de importación para retomar al extranjero en el mismo estado.</field>
+        <field name="impoexpo">Entrada</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_regimen_aduanero_04" model="l10n.xma.regimen.aduanero">
+        <field name="clave">ITE</field>
+        <field name="name">Temporales de importación para elaboración, transformación o reparación para empresas con programa IMMEX.</field>
+        <field name="impoexpo">Entrada</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_regimen_aduanero_05" model="l10n.xma.regimen.aduanero">
+        <field name="clave">ETR</field>
+        <field name="name">Temporales de exportación para retornar al país en el mismo estado.</field>
+        <field name="impoexpo">Salida</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_regimen_aduanero_06" model="l10n.xma.regimen.aduanero">
+        <field name="clave">ETE</field>
+        <field name="name">Temporales de exportación para elaboración, transformación o reparación</field>
+        <field name="impoexpo">Salida</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_regimen_aduanero_07" model="l10n.xma.regimen.aduanero">
+        <field name="clave">DFI</field>
+        <field name="name">Depósito Fiscal.</field>
+        <field name="impoexpo">Salida,Entrada</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_regimen_aduanero_08" model="l10n.xma.regimen.aduanero">
+        <field name="clave">RFE</field>
+        <field name="name">Elaboración, transformación o reparación en recinto fiscalizado.</field>
+        <field name="impoexpo">Salida,Entrada</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_regimen_aduanero_09" model="l10n.xma.regimen.aduanero">
+        <field name="clave">RFS</field>
+        <field name="name">Recinto fiscalizado estratégico.</field>
+        <field name="impoexpo">Salida,Entrada</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_regimen_aduanero_10" model="l10n.xma.regimen.aduanero">
+        <field name="clave">TRA</field>
+        <field name="name">Tránsitos..</field>
+        <field name="impoexpo">Salida,Entrada</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+</odoo>

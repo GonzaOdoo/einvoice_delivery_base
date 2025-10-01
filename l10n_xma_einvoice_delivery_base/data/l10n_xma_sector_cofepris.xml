@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_xma_sector_cofepris_01" model="l10n.xma.sector.cofepris">
+        <field name="clave">01</field>
+        <field name="name">Medicamento</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_sector_cofepris_02" model="l10n.xma.sector.cofepris">
+        <field name="clave">02</field>
+        <field name="name">Precursores y químicos de uso dual</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_sector_cofepris_03" model="l10n.xma.sector.cofepris">
+        <field name="clave">03</field>
+        <field name="name">Psicotrópicos y estupefacientes</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_sector_cofepris_04" model="l10n.xma.sector.cofepris">
+        <field name="clave">04</field>
+        <field name="name">Sustancias tóxicas</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_sector_cofepris_05" model="l10n.xma.sector.cofepris">
+        <field name="clave">05</field>
+        <field name="name">Plaguicidas y fertilizantes</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+</odoo>

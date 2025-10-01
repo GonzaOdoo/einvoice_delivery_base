@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_xma_forma_farmaceutica_01" model="l10n.xma.forma.farmaceutica">
+        <field name="clave">01</field>
+        <field name="name">Tableta</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_forma_farmaceutica_02" model="l10n.xma.forma.farmaceutica">
+        <field name="clave">02</field>
+        <field name="name">Capsulas</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_forma_farmaceutica_03" model="l10n.xma.forma.farmaceutica">
+        <field name="clave">03</field>
+        <field name="name">Comprimidos</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_forma_farmaceutica_04" model="l10n.xma.forma.farmaceutica">
+        <field name="clave">04</field>
+        <field name="name">Grageas</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_forma_farmaceutica_05" model="l10n.xma.forma.farmaceutica">
+        <field name="clave">05</field>
+        <field name="name">Suspensión</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_forma_farmaceutica_06" model="l10n.xma.forma.farmaceutica">
+        <field name="clave">06</field>
+        <field name="name">Solución</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_forma_farmaceutica_07" model="l10n.xma.forma.farmaceutica">
+        <field name="clave">07</field>
+        <field name="name">Emulsión</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_forma_farmaceutica_08" model="l10n.xma.forma.farmaceutica">
+        <field name="clave">08</field>
+        <field name="name">Jarabe</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_forma_farmaceutica_09" model="l10n.xma.forma.farmaceutica">
+        <field name="clave">09</field>
+        <field name="name">Inyectable</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_forma_farmaceutica_10" model="l10n.xma.forma.farmaceutica">
+        <field name="clave">10</field>
+        <field name="name">Crema</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_forma_farmaceutica_11" model="l10n.xma.forma.farmaceutica">
+        <field name="clave">11</field>
+        <field name="name">Ungüento</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_forma_farmaceutica_12" model="l10n.xma.forma.farmaceutica">
+        <field name="clave">12</field>
+        <field name="name">Aerosol</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_forma_farmaceutica_13" model="l10n.xma.forma.farmaceutica">
+        <field name="clave">13</field>
+        <field name="name">Gas medicinal</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_forma_farmaceutica_14" model="l10n.xma.forma.farmaceutica">
+        <field name="clave">14</field>
+        <field name="name">Gel</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_forma_farmaceutica_15" model="l10n.xma.forma.farmaceutica">
+        <field name="clave">15</field>
+        <field name="name">Implante</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_forma_farmaceutica_16" model="l10n.xma.forma.farmaceutica">
+        <field name="clave">16</field>
+        <field name="name">Óvulo</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_forma_farmaceutica_17" model="l10n.xma.forma.farmaceutica">
+        <field name="clave">17</field>
+        <field name="name">Parche</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_forma_farmaceutica_18" model="l10n.xma.forma.farmaceutica">
+        <field name="clave">18</field>
+        <field name="name">Pasta</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_forma_farmaceutica_19" model="l10n.xma.forma.farmaceutica">
+        <field name="clave">19</field>
+        <field name="name">Polvo</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    <record id="l10n_xma_forma_farmaceutica_20" model="l10n.xma.forma.farmaceutica">
+        <field name="clave">20</field>
+        <field name="name">Supositorio</field>
+        <field name="country_id" ref="base.mx"/>
+    </record>
+    
+</odoo>

@@ -1,0 +1,16 @@
+id,code,name,country_id,l10n_xma_transaction_type
+use1,1,Traslado por ventas,Paraguay,remision_note
+use2,2,Traslado por consignacion,Paraguay,remision_note
+use3,3,Exportación,Paraguay,remision_note
+use4,4,Traslado por compra,Paraguay,remision_note
+use5,5,Importación,Paraguay,remision_note
+use6,6,Traslado por devolución,Paraguay,remision_note
+use7,7,Traslado entre locales de la empresa,Paraguay,remision_note
+use8,8,Traslado de bienes por transformación,Paraguay,remision_note
+use9,9,Traslado de bienes por por reparación,Paraguay,remision_note
+use10,10,Traslado por emisor movil,Paraguay,remision_note
+use11,11,Exhibición o Demostración,Paraguay,remision_note
+use12,12,Participación en ferias,Paraguay,remision_note
+use13,13,Traslado por encomienda,Paraguay,remision_note
+use14,14,Decomiso,Paraguay,remision_note
+use99,99,Otro,Paraguay,remision_note
