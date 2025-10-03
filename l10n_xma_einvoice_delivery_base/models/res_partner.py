@@ -12,3 +12,6 @@ class ResPartner(models.Model):
     license_number = fields.Char(
         string='No. de licencia',
     )
+    l10n_xma_colony_code = fields.Char(
+        string='Colonia',
+    )
