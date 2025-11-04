@@ -161,8 +161,9 @@ class AccountMove(models.Model):
         return uuid_with_c
 
     def action_post(self):
-        if not self.l10n_xma_idccp:
-            self.l10n_xma_idccp = self.generate_IdCCP()
+        for record in self:
+            if not record.l10n_xma_idccp:
+                record.l10n_xma_idccp = record.generate_IdCCP()
         return super(AccountMove, self).action_post()
 
     def calculate_qty_total(self):
