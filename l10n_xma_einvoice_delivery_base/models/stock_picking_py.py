@@ -124,14 +124,16 @@ class StockPickingPY(models.Model):
     ##------------------------------------------#
     def button_validate(self):
         country = self.company_id.partner_id.country_id.code.lower()
-        if country == 'py':
-            if not self.sequence_number_assigned and self.picking_type_id.code == 'outgoing':
-                if not self.l10n_xma_document_type_id or self.l10n_xma_document_type_id.code != '7':
-                    raise UserError(_('Debe seleccionar un tipo de documento'))
-                else:
-                    self.l10n_xma_documento = self.l10n_xma_document_type_id.l10n_xma_sequence_start
-                    self.l10n_xma_document_type_id.l10n_xma_sequence_start += 1
+        if self.l10n_xma_use_document:
+            if country == 'py':
+                if not self.sequence_number_assigned and self.picking_type_id.code == 'outgoing':
+                    if not self.l10n_xma_document_type_id or self.l10n_xma_document_type_id.code != '7':
+                        raise UserError(_('Debe seleccionar un tipo de documento'))
+                    else:
+                        self.l10n_xma_documento = self.l10n_xma_document_type_id.l10n_xma_sequence_start
+                        self.l10n_xma_document_type_id.l10n_xma_sequence_start += 1
         return super().button_validate()
+    
     def consult_invoice_status(self):
         company = self.get_company()
         uuid = company.company_name
